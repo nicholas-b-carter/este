@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - react-native > connect > finalhandler > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - compression > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - gulp-real-favicon > rfg-api > node-rest-client > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > body-parser > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > compression > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > connect-timeout > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > express-session > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > morgan > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > serve-index > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > serve-static > send > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - eslint-plugin-import > eslint-module-utils > debug > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > connect-timeout > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > serve-static > send > ms:
+        patched: '2017-06-19T23:10:23.660Z'
+    - react-native > connect > serve-favicon > ms:
+        patched: '2017-06-19T23:10:23.660Z'
